@@ -1,17 +1,19 @@
+<!-- 👋 -->
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Ignace Maes - Software Engineer</title>
     <meta name="author" content="Ignace Maes">
-    <meta name="description" content="I'm a software engineer from Belgium with a strong interest in technology. I love creating digital products that make people's lives more enjoyable.">
+    <meta name="description" content="I'm a software engineer from Belgium with a strong interest in technology. I love creating digital products that make people's life more enjoyable.">
     <meta name="keywords" content="Ignace Maes, Portfolio, Software, Engineering, Programming, Coding, Development">
     <meta name="theme-color" content="#000000">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="dist/main.bundle.css">
+    <link rel="stylesheet" type="text/css" href="dist/main.bundle.css#20220814">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Overpass|Rubik:300,400|Spectral:300i">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
 
     <meta property="og:image" content="https://ignacemaes.com/dist/img/preview.png">
     <meta property="og:image:type" content="image/png">
@@ -27,8 +29,7 @@
         <li>Full-stack software engineer</li>
         <li>Based in Belgium</li>
         <li>Independent developer</li>
-        <li class="no-mobile">Student M.Sc. Information Engineering Technology</li>
-        <li class="only-mobile">Engineering student majoring in IT</li>
+        <li>Avid sporter, music lover, and tech enthousiast</li>
       </ul>
     </div>
 
@@ -40,10 +41,10 @@
   <section id="about" class="about-section">
     <h2>Welcome to my spot on the web</h2>
 
-    <p>I'm a software engineer from Belgium with a strong interest in technology. I love creating <strong>digital products</strong> that make people's lives more enjoyable.</p>
+    <p>I'm a software engineer from Belgium with a strong interest in technology. I love creating <strong>digital products</strong> that make people's life more enjoyable.</p>
     <div id="me" class="fade-in" style="animation-duration: .7s;"><div></div></div>
-    <p>Ever since I was young I've been messing around with programming languages. My skills vary from developing mobile and desktop apps, creating websites and scripting nifty tools to writing lower-level code. I'm <strong>more of a developer than a designer</strong>, but I do sometimes surprise myself.</p>
-    <p>Currently, I'm doing my masters in engineering, majoring in IT. In my spare time you'll find me working on side projects, you can find some of them below!</p>
+    <p>Ever since I was young I've been messing around in programming languages. I enjoy learning new stuff and building projects like mobile and desktop apps, creating websites and scripting nifty tools to even writing some more lower-level code. I enjoy focussing on design as well and make everything look nice.</p>
+    <p>In my spare time you'll find me working on side projects, you can find some of them below!</p>
   </section>
 
   <section class="projects-header">
@@ -53,10 +54,35 @@
   <section class="projects-section">
     <article class="fade-in">
       <span>&nbsp;</span>
+      <div id="tile-fourinarow" class="project-details">
+        <h3>Four In A Row</h3>
+        <p>Play the classic game to connect four chips in a row to win! Play on mobile against a friend or challenge the AI.</p>
+        <a class="button proj" href="fourinarow.html">Read more <span>&raquo;</span></a>
+      </div>
+    </article>
+    <article class="fade-in">
+      <span>&nbsp;</span>
+      <div id="tile-poolball" class="project-details">
+        <h3>Pool Ball</h3>
+        <p>A little pool table right in your pocket. Play 8 ball pool on your phone or tablet against a friend or versus the AI.</p>
+        <a class="button proj" href="poolball.html">Read more <span>&raquo;</span></a>
+      </div>
+    </article>
+    <article class="fade-in">
+      <span>&nbsp;</span>
+      <div id="tile-airhockey" class="project-details">
+        <h3>Air Hockey</h3>
+        <p>Turn your phone or tablet into an air hockey table. Play against a friend or try and beat the AI.</p>
+        <a class="button proj" href="airhockey.html">Read more <span>&raquo;</span></a>
+      </div>
+    </article>
+    
+    <article class="fade-in">
+      <span>&nbsp;</span>
       <div id="tile-wonderwall" class="project-details">
         <h3>Wonderwall</h3>
         <p>Explore the world through wonderful landscape wallpapers. Every day one handpicked photo is added to the collection.</p>
-        <a class="button proj">Read more <span>&raquo;</span></a>
+        <a class="button proj" href="wonderwall.html">Read more <span>&raquo;</span></a>
       </div>
     </article>
     <article class="fade-in">
@@ -64,7 +90,7 @@
       <div id="tile-materialskin" class="project-details">
         <h3>MaterialSkin</h3>
         <p>MaterialSkin is an open-source project bringing Google's Material Design principles to Microsoft .NET WinForms.</p>
-        <a class="button proj">Read more <span>&raquo;</span></a>
+        <a class="button proj" href="materialskin">Read more <span>&raquo;</span></a>
       </div>
     </article>
     <article class="fade-in">
@@ -72,7 +98,7 @@
       <div id="tile-bpmtap" class="project-details">
         <h3>BPM Tap</h3>
         <p>Measure any tempo like your heart rate or a songs rhythm in beats per minute.</p>
-        <a class="button proj">Read more <span>&raquo;</span></a>
+        <a class="button proj" href="/bpmtap.html">Read more <span>&raquo;</span></a>
       </div>
     </article>
     <article class="fade-in">
@@ -108,24 +134,28 @@
       <a href="https://github.com/IgnaceMaes" target="_blank"><i class="fa fa-github-alt"></i><span>GitHub</span></a>
       <a href="https://be.linkedin.com/in/ignacemaes" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://twitter.com/Ignace_Maes" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-      <a href="https://google.com/+IgnaceMaes" target="_blank"><i class="fa fa-google"></i><span>Google+</span></a>
+      <a href="https://gitlab.com/IgnaceMaes" target="_blank"><i class="fa fa-gitlab"></i><span>GitLab</span></a>
       <a href="https://unsplash.com/@ignace" target="_blank"><i class="fa fa-camera"></i><span>Unsplash</span></a>
       <a href="https://www.youtube.com/user/blink1446" target="_blank"><i class="fa fa-youtube-play"></i><span>YouTube</span></a>
     </div>
   </section>
 
   <footer>
-    &copy; Me, 2018.
+    &copy; Me, 2022.
   </footer>
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m)
+      {
+          i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function ()
+          {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-53540578-1', 'auto');
-    ga('send', 'pageview');
+      ga('create', 'UA-53540578-1', 'auto');
+      ga('send', 'pageview');
   </script>
   <script id="project-template" type="text/x-handlebars-template">
     <header class="real-header">
@@ -186,7 +216,6 @@
       </div>
     </div>
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-  <script src="dist/projects.js"></script>
+  <script src="js/projects.js#20220814"></script>
 </body>
 </html>
